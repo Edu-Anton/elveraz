@@ -1,0 +1,51 @@
+:root {
+    --color-primary: #62346f;
+    --color-secondary: #009d78
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+// ***** HEADER
+header {
+    background-color: var(--color-primary)
+}
+
+
+
+// ***** MAIN
+main {
+    @media (min-width: 992px) {
+        width: 66.67%;
+        outline: 1px solid;
+    }
+}
+
+// ***** ASIDE
+aside {
+    @media (min-width: 992px) {
+        width: 33.33%;
+        outline: 1px solid;
+    }
+}
+
+// ***** FOOTER
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background-color: var(--color-primary);
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}

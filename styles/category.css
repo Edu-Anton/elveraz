@@ -1,0 +1,53 @@
+:root {
+  --color-primary: #62346f;
+  --color-secondary: #009d78
+;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+header {
+  background-color: var(--color-primary);
+}
+
+@media (min-width: 992px) {
+  main {
+    width: 66.67%;
+    outline: 1px solid;
+  }
+}
+
+@media (min-width: 992px) {
+  aside {
+    width: 33.33%;
+    outline: 1px solid;
+  }
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  background-color: var(--color-primary);
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=category.css.map */
