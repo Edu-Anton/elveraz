@@ -315,6 +315,65 @@ main {
   border-radius: 50%;
 }
 
+.detail {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .detail {
+    padding-right: 15px;
+    width: 60%;
+  }
+}
+
+.detail h1 {
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+.detail h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.detail .img__box {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.detail .img__box .img__content {
+  position: absolute;
+  padding: 10px 20px;
+  bottom: 0;
+  color: #fff;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.detail .img__box .img__content p {
+  margin-bottom: 0;
+}
+
+.detail p {
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.detail .link-button {
+  border: 3px solid var(--color-primary);
+  padding: 5px 20px;
+  border-radius: 25px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  width: 210px;
+}
+
 @media (min-width: 768px) {
   aside {
     padding-left: 15px;
