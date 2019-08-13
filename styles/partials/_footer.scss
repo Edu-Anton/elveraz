@@ -1,0 +1,17 @@
+// ***** FOOTER
+footer {
+  color: #fff;
+  background-color: var(--color-primary);
+  margin-top: 30px;
+  .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+  }
+  a {
+      font-size: 28px;
+      text-transform: uppercase;
+      color: #fff;
+  }
+}

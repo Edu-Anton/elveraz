@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  @media (min-width: 576px) {
+      width: 516px;
+  }
+  @media (min-width: 768px){
+      width: 706px;
+  }
+  @media (min-width: 992px) {
+      width: 942px;
+  }
+}
