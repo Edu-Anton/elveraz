@@ -1,9 +1,11 @@
-
+.top-news {
+  margin-bottom: 30px;
+}
 
 .news {
-  outline: 1px dashed green;
-  
-  @media (min-width:768px) {
+  // outline: 1px dashed green;
+
+  @media (min-width:992px) {
     width: 66.67%; 
   }
 
@@ -16,9 +18,8 @@
 }
 
 .most-read {
-  outline: 1px dashed orange;
-  
-  @media (min-width:768px) {
+  // outline: 1px dashed orange;
+  @media (min-width:992px) {
     width: 33.33%;
   }
 }
