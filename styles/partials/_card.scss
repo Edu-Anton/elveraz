@@ -2,7 +2,6 @@
   position: relative;
   margin-top: 20px;
   width: 100%;
-  background-color: red;
   @media (min-width: 992px) {
     margin-top: 30px;
   }
@@ -31,7 +30,7 @@
     flex-direction: column;
     justify-content: space-between;
     color: #fff;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0,0,0,.6);
     position: absolute;
     top: 0;
     width: 100%;
@@ -73,6 +72,7 @@
   &__title {
     font-size: 14px;
     width: 80%;
+    line-height: 1.4;
     
 
     @media (min-width: 768px) {

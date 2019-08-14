@@ -1,6 +1,4 @@
 .container {
-  // margin-left: 30px;
-  // margin-right: 30px;
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
@@ -79,6 +77,10 @@
     
     &__md-6 {
       width: 50%;
+    }
+
+    &__md-8 {
+      width: 66.67%
     }
 
     &__md-9 {

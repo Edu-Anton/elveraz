@@ -10,7 +10,9 @@
   }
 
   h2 {
+    margin-top: 20px;
     @media (min-width:768px) {
+      margin-top: 0;
       width: 100%
     }
   }
@@ -21,5 +23,12 @@
   // outline: 1px dashed orange;
   @media (min-width:992px) {
     width: 33.33%;
+  }
+  h2 {
+    margin-top: 20px;
+    @media (min-width:768px) {
+      margin-top: 0;
+      width: 100%
+    }
   }
 }
