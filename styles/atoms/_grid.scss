@@ -60,49 +60,4 @@
       padding-right: 15px;
     }
   }
-
-  &__xs-12 {
-    width: 100%;
-  }
-
-  @media (min-width: 768px) {
-    
-    &__md-3 {
-      width: 25%;
-    }
-
-    &__md-4 {
-      width: 33.33%
-    }
-    
-    &__md-6 {
-      width: 50%;
-    }
-
-    &__md-8 {
-      width: 66.67%
-    }
-
-    &__md-9 {
-      width: 75%;
-    }
-
-    &__md-12 {
-      width: 100%;
-    }
-  }
-
-  @media (min-width: 992px) {
-    &__lg-4 {
-      width: 33.33%;
-    }
-
-    &__lg-8 {
-      width: 66.67%
-    } 
-
-    &__lg-12 {
-      width: 100%;
-    }
-  }
 }

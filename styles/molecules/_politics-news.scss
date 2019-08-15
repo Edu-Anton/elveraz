@@ -1,71 +1,49 @@
 // ***** POLITIC-NEWS
 .politic {
-
     margin-top: 30px;
-  @media (min-width: 768px) {
-      padding-right: 15px;
-      width: 60%;
-  }
+    
+    @media (min-width: 768px) {
+        padding-right: 15px;
+        width: 60%;
+    }
 
-  h2 {
-      font-size: 32px;
-      margin-bottom: 10px;
-  }
+    h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
 
-  &__article {
-      margin-bottom: 30px;    
-      time {
-          font-size: 11px;
-      }
+    &__article {
+    margin-bottom: 30px;    
+    time {
+        font-size: 11px;
+    }
 
-      h3 {
-          font-size: 16px;
-          line-height: 20px;
-          margin-top: 5px;
-          margin-bottom: 10px;
-      }
+    h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
 
-      .content {
-          display: flex;   
-      }
+    .content {
+        display: flex;   
+    }
 
-      figure {
-          border: 1px dashed green;   
-          margin-right: 20px;
-      }
+    figure {
+        border: 1px dashed green;   
+        margin-right: 20px;
+    }
 
-      .text-content {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-      }
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-      .tags {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-      }
-
-      .tag {
-          color: #fff;
-          background-color: var(--color-primary);
-          display: inline-block;
-          margin-top: 10px;
-          margin-bottom: 10px;
-          padding: 3px 10px;
-          border-radius: 15px;
-          font-size: 13px;
-      }
-
-      .icon {
-          display: inline-flex;
-          justify-content: center;
-          width: 25px;
-          height: 25px;
-          border: 2px solid;
-          border-radius: 50%;
-          margin-left: 8px;
-          
-      }
+    .tags {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
   }
 }

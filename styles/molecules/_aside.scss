@@ -27,18 +27,7 @@ aside {
 			align-items: center;
 		}
 
-		.tag {
-			color: #fff;
-			background-color: var(--color-primary);
-			display: inline-block;
-			margin-top: 10px;
-			margin-bottom: 10px;
-			padding: 3px 10px;
-			border-radius: 15px;
-			font-size: 13px;
-			&--red {background-color: red}
-			&--pink {background-color: #ff00e3}
-		}
+		
 
 		h3 {
 			font-size: 16px;

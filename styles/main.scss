@@ -1,13 +1,18 @@
 @import 'base/variables';
 @import 'base/global';
 @import 'atoms/grid';
+@import 'atoms/buttoms';
+@import 'atoms/tags';
+@import 'atoms/icons';
+@import 'atoms/text';
 @import 'organism/header';
 @import 'organism/footer';
 @import 'organism/card';
 @import 'pages/home';
 @import 'molecules/politics-news';
 @import 'molecules/aside';
-@import 'molecules/detail'
+@import 'molecules/detail';
+@import 'helpers/grid'
 
 
 
