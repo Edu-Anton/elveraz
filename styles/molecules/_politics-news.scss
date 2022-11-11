@@ -1,10 +1,10 @@
 // ***** POLITIC-NEWS
 .politic {
     margin-top: 30px;
-    
+
     @media (min-width: 768px) {
         padding-right: 15px;
-        width: 60%;
+        width: 66.67%;
     }
 
     h2 {
@@ -16,13 +16,6 @@
     margin-bottom: 30px;    
     time {
         font-size: 11px;
-    }
-
-    h3 {
-        font-size: 16px;
-        line-height: 20px;
-        margin-top: 5px;
-        margin-bottom: 10px;
     }
 
     .content {

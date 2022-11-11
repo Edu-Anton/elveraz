@@ -2,9 +2,9 @@
 .detail {
   margin-bottom: 20px;
   margin-top: 30px;
+
   @media (min-width: 768px) {
       padding-right: 15px;
-      width: 60%;
   }
 
   h1 {
@@ -25,6 +25,7 @@
       .img__content {
           position: absolute;
           padding: 10px 20px;
+          width: 100%;
           bottom: 0;
           color: #fff;
           font-size: 15px;
@@ -39,5 +40,8 @@
       font-size: 15px;
       line-height: 1.4;
       margin-bottom: 10px;
+  }
+  &__wrapper-buttom {
+    display: flex;
   }
 }
